@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 28 CSS - Bootstrap5</title>
+    <!-- Bootstrap5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center">
+        <img
+          src="lampung.jpg"
+          class="rounded-circle mx-auto"
+          width="200px"
+          height="120px"
+        />
+      </div>
+
+      <form>
+        <div class="mb-3">
+          <label class="form-label text-white">Nama Lengkap</label>
+          <input class="form-control" type="text" placeholder="Nama Lengkap" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label text-white">Alamat</label>
+          <textarea class="form-control" type="text" placeholder=""></textarea>
+        </div>
+        <div class="mb-3">
+          <label class="form-label text-white">Alamat Email</label>
+          <input
+            class="form-control"
+            type="email"
+            placeholder="Alamat email (disabled)"
+            disabled
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label text-white">Password</label>
+          <input class="form-control" type="password" placeholder="Password" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label text-white">Scan KTP</label>
+          <input
+            class="form-control bg-transparent text-white border-0"
+            type="file"
+            placeholder=""
+          />
+        </div>
+        <div class="form-check mb-3">
+          <input
+            class="form-check-input form-check-inline"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label text-white" for="flexCheckDefault">
+            Saya setuju dan telah membaca
+            <span class="text-primary">aturan</span> serta
+            <span class="text-primary">ketentuan</span> yang berlaku.
+          </label>
+        </div>
+        <div class="d-grid gap-2 ">
+          <button type="submit" class="btn btn-info text-white">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
